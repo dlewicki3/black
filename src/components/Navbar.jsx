@@ -46,7 +46,8 @@ function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '-100%' }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-            >
+            > 
+              <div style = {{fontSize: "22px", color:"#00df9a", padding:"20px"}}>REACT.</div>
               <div className="pro">Home</div>
               <div className="pro">Contact</div>
               <div className="pro">About</div>
