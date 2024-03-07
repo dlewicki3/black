@@ -29,27 +29,34 @@ function Navbar() {
             Get Started
           </motion.button>
 
-          <div className="menu" onClick={toggleMenu}>
+          <motion.div
+            className="menu"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={toggleMenu}>
             <GrMenu />
-          </div>
+          </motion.div>
         </div>
         
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-            className="show"
-            initial={{ x: '-100%' }}
-            animate={{ x: 0 }}
-            exit={{ x: '-100%' }}
-            transition={{ duration: .3, ease: "easeInOut" }}
+              className="show"
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
             >
               <div className="pro">Home</div>
               <div className="pro">Contact</div>
               <div className="pro">About</div>
               <div className="pro">Process</div>
               <div className="pro">Portfolio</div>
-              <div className="close" onClick={toggleMenu}><IoClose />
-</div>
+              <motion.div
+                className="close"
+                onClick={toggleMenu}>
+                <IoClose />
+              </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
