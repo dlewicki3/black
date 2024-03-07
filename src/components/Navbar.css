@@ -1,0 +1,169 @@
+.nav
+{
+
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00df9a;
+    overflow: hidden;
+}
+.navbar
+{
+background-color: grey;
+    max-width: 1100px;
+    height: 7vh;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.logo
+{
+    width: 70%;
+    height: 100%;
+   
+    font-size: 23px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #00df9a;
+    font-weight: 600;
+    letter-spacing: -1px;
+    background-color: pink;
+
+}
+.na-ul
+{
+  list-style: none;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+background-color: green;
+}
+li
+{
+width: 25%;
+background-color: red;
+font-size: 16px;
+font-weight: 500;
+color: black;
+}
+.getin-btn
+{
+    width: 150px;
+    height: 70%;
+background-color: white;
+    border-radius: 15px;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    border: 1px solid white;
+   cursor: pointer;
+   font-family: "Inter", sans-serif;
+}
+.menu
+{
+    display: none;
+}
+.show
+{
+    display: none;
+}
+.close
+{
+    display: none;
+}
+@media only screen and (max-width: 1085px) {
+    .logo
+    {
+    width: 55%;
+    }
+    .na-ul
+    {
+    width: 45%;
+    }
+    .navbar
+    {
+        width: 95%;
+    }
+    }
+@media only screen and (max-width: 768px) {
+
+.menu
+{
+    display: block;
+    height: 100%;
+    font-size: 30px;
+background-color:grey;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+.na-ul
+{
+    background-color: aqua;
+
+}
+.getin-btn
+{
+    display: none;
+}
+li
+{
+    background-color: red;
+    display: none;
+}
+.show
+{
+ background-color: black;
+ padding-left: 0px;
+height:100%;
+width: 50%;
+    display: block;
+    position: fixed;
+    left: 0%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 20px;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ font-size: 22px;
+opacity: 0.9;
+}
+.pro
+{
+    padding: 20px;
+    
+}
+}
+@media only screen and (max-width: 500px) {
+
+   .show
+   {
+    width: 100%;
+    padding-left: 0px;
+   }
+    
+    .close
+    {
+       height: 100px;
+       width: 100px;
+       background-color: pink;
+       display: flex;
+position:absolute;
+       top:0%;
+       right: 0%;
+       overflow: hidden;
+    }
+
+}
+
+
