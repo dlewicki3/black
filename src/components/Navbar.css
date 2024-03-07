@@ -7,12 +7,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00df9a;
+ 
     overflow: hidden;
 }
 .navbar
 {
-background-color: grey;
+
     max-width: 1100px;
     height: 7vh;
 width: 100%;
@@ -31,7 +31,7 @@ justify-content: center;
     color: #00df9a;
     font-weight: 600;
     letter-spacing: -1px;
-    background-color: pink;
+ 
 
 }
 .na-ul
@@ -42,12 +42,12 @@ justify-content: center;
   display: flex;
   justify-content: right;
   align-items: center;
-background-color: green;
+
 }
 li
 {
 width: 25%;
-background-color: red;
+
 font-size: 16px;
 font-weight: 500;
 color: black;
@@ -89,7 +89,7 @@ background-color: white;
     }
     .navbar
     {
-        width: 95%;
+        width: 90%;
     }
     }
 @media only screen and (max-width: 768px) {
@@ -99,25 +99,21 @@ background-color: white;
     display: block;
     height: 100%;
     font-size: 30px;
-background-color:grey;
+
 display: flex;
 justify-content: center;
 align-items: center;
 color: white;
 
 }
-.na-ul
-{
-    background-color: aqua;
 
-}
 .getin-btn
 {
     display: none;
 }
 li
 {
-    background-color: red;
+
     display: none;
 }
 .show
@@ -136,7 +132,7 @@ width: 50%;
  align-items: center;
  color: white;
  font-size: 22px;
-opacity: 0.9;
+opacity: 1;
 }
 .pro
 {
@@ -149,20 +145,24 @@ opacity: 0.9;
    .show
    {
     width: 100%;
-    padding-left: 0px;
+padding: 0px;
    }
     
     .close
     {
-       height: 100px;
-       width: 100px;
-       background-color: pink;
+       
+   
        display: flex;
 position:absolute;
-       top:0%;
-       right: 0%;
+       top: 5%;
+       right: 5%;
        overflow: hidden;
+       font-size: 30px;
     }
+.navbar
+{
+    height: 13dvh;
+}
 
 }
 

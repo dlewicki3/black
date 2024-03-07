@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { GrMenu } from "react-icons/gr";
 import { motion, AnimatePresence } from 'framer-motion';
+import { IoClose } from "react-icons/io5";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,18 +37,19 @@ function Navbar() {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="show"
-              initial={{ x: '-100%' }}
-              animate={{ x: 0 }}
-              exit={{ x: '-100%' }}
-              transition={{ duration: .3 }}
+            className="show"
+            initial={{ x: '-100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '-100%' }}
+            transition={{ duration: .3, ease: "easeInOut" }}
             >
               <div className="pro">Home</div>
               <div className="pro">Contact</div>
               <div className="pro">About</div>
               <div className="pro">Process</div>
               <div className="pro">Portfolio</div>
-              <div className="close" onClick={toggleMenu}>Close</div>
+              <div className="close" onClick={toggleMenu}><IoClose />
+</div>
             </motion.div>
           )}
         </AnimatePresence>
