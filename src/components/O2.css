@@ -1,6 +1,6 @@
 .o2
 {
-    background-color: #fbfcfd;
+    background-color: rgb(250, 250, 250);
     width: 100%;
     height: 50dvh;
     display: flex;
@@ -20,20 +20,21 @@ border-top: 1px solid white;
 .svg-img
 {
 
-    height: 70%;
-   width: 100%;
+    height:85%;
+   width: 85%;
  
-  
+
 
 }
 .left2
 {
     width: 50%;
     height: 100%;
- 
+
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    
 }
 .right2
 {
@@ -113,6 +114,9 @@ background-color: #00df9a;
     height:50%;
 
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .right2
