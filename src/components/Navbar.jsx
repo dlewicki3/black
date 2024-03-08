@@ -11,23 +11,28 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  
   return (
     <div className="nav">
       <div className="navbar">
         <div className="logo">
-          REACT.
+          <p className='logo-txt'>REACT.</p>
         </div>
         
         <div className="na-ul">
-          <li>About</li>
+          <motion.li
+        
+          
+          >About</motion.li>
           <li>Home</li>
           <li>Contact</li>
-          <motion.button
+          <button
             className='getin-btn'
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.95 }}>
+           
+            
+            >
             Get Started
-          </motion.button>
+          </button>
 
           <motion.div
             className="menu"
@@ -47,7 +52,7 @@ function Navbar() {
               exit={{ x: '-100%' }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
             > 
-              <div style = {{fontSize: "22px", color:"#00df9a", padding:"20px"}}>REACT.</div>
+              <div style = {{fontSize: "22px", color:"#00df9a", padding:"20px" ,fontWeight:"500"}}>REACT.</div>
               <div className="pro">Home</div>
               <div className="pro">Contact</div>
               <div className="pro">About</div>

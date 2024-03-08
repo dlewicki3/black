@@ -23,7 +23,7 @@ max-width: 750px;
     width: 180px;
     height: 55px;
 background-color: #00df9a;
-    border-radius: 15px;
+    border-radius: 12px;
     letter-spacing: -0.3px;
     font-size: 16px;
     color: black;
@@ -32,6 +32,11 @@ background-color: #00df9a;
    cursor: pointer;
    font-family: "Inter", sans-serif;
    margin-top: 10px;
+   transition: all .2s;
+}
+.big-btn-1:hover
+{
+    transform: translateY(-3px) ;
 }
 .color-txt
 {
@@ -80,7 +85,7 @@ color: #00df9a;
 }
 .middle-txt-1 
 {
-    font-size: 35px;
+    font-size: 33px;
 }
 .small-txt-1 
 {
@@ -102,7 +107,7 @@ color: #00df9a;
     }
     .middle-txt-1 
     {
-        font-size: 28px;
+        font-size: 25px;
     }
     .small-txt-1 
     {
@@ -121,11 +126,16 @@ color: #00df9a;
     }
     .middle-txt-1 
     {
-        font-size: 20px;
+        font-size: 20.5px;
     }
     .small-txt-1 
     {
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .big-btn-1
+    {
+        width: 150px;
+        height: 50px;
     }
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './O1.css';
+import {motion} from 'framer-motion';
 function O1() {
   return (
    <div className="o1">
@@ -8,7 +9,8 @@ function O1() {
     <p className='big-txt-1' >Grow with data</p>
     <p className='middle-txt-1' >Fast, flexible, financiong for SaaS</p>
     <p className='small-txt-1'  >Monitor your data analytics to increas revenue for BTB, BTC,<br></br> SASS platforms</p>
-    <button className='big-btn-1'>Get Started</button>
+    <button className='big-btn-1'
+    >Get Started</button>
   </div>
    </div>
   )

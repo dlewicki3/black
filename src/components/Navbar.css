@@ -1,42 +1,61 @@
-.nav
-{
-
+.nav {
     width: 100%;
     margin: auto;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
- z-index: 99;
+    z-index: 98; /* Zmiana z 99 na 98 */
     overflow: hidden;
-    backdrop-filter: blur(24px);
-
+    
 }
-.navbar
-{
 
+.navbar {
+    z-index: 99;
     max-width: 1100px;
-    height: 7vh;
-width: 100%;
-display: flex;
-justify-content: center;
-border-bottom: 1px solid #00df9885;
-
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #00df9885;
+    
+    overflow: hidden;
 }
+
+/* Reszta Twojego CSS pozostaje bez zmian */
+
+
 .logo
 {
     width: 70%;
+   
     height: 100%;
    cursor: pointer;
-    font-size: 23px;
     display: flex;
     justify-content: left;
     align-items: center;
+}
+.logo-txt
+{
+ 
+    font-size: 23px;
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
     color: #00df9a;
     font-weight: 600;
     letter-spacing: -1px;
- 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+.logo-txt:hover
+{
+    color: black;
+    background-color: #00df9a;
+  
+    transform: translateY(-2px) ;
 }
 .na-ul
 {
@@ -51,17 +70,33 @@ border-bottom: 1px solid #00df9885;
 li
 {
 width: 25%;
+height: 40%;
 cursor: pointer;
 font-size: 16px;
 font-weight: 500;
 color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px;
+border-radius: 10px;
+transition: all .2s;
 }
+ li:hover
+{
+
+color: black;
+    background-color: #00df9a;
+  
+    transform: translateY(-2px) ;
+} 
+
 .getin-btn
 {
-    width: 150px;
-    height: 70%;
+    width: 140px;
+    height: 68%;
 background-color: white;
-    border-radius: 15px;
+    border-radius: 12px;
     letter-spacing: -0.3px;
     font-size: 16px;
     color: black;
@@ -69,6 +104,12 @@ background-color: white;
     border: 1px solid white;
    cursor: pointer;
    font-family: "Inter", sans-serif;
+   margin-left: 20px;
+   transition: all .2s;
+}
+.getin-btn:hover
+{
+    transform: translateY(-3px) ;
 }
 .menu
 {
@@ -99,14 +140,16 @@ background-color: white;
 @media only screen and (max-width: 768px) {
 .nav
 {
-    backdrop-filter: none;
+
+   
 }
+
 .menu
 {
     display: block;
     height: 100%;
     font-size: 30px;
-
+background-color: red;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -125,7 +168,7 @@ li
 }
 .show
 {
- background-color: black;
+ background-color: rgb(30, 0, 202);
  padding-left: 0px;
 height:100%;
 width: 50%;
@@ -140,10 +183,13 @@ width: 50%;
  color: white;
  font-size: 22px;
 opacity: 1;
+z-index: 50;
 }
 .pro
 {
     padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
     
 }
 }
