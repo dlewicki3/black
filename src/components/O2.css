@@ -22,7 +22,8 @@ border-top: 1px solid white;
 
     height: 70%;
    width: 100%;
-   
+ 
+  
 
 }
 .left2
@@ -39,6 +40,10 @@ border-top: 1px solid white;
     width: 50%;
     height: 70%;
  
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+
 
 }
 .medium2-txt
@@ -47,7 +52,7 @@ border-top: 1px solid white;
     line-height: 1;
     font-weight: 600;
     color: #00df9a;
-    margin-top: 15px;
+
 }
 .big2-txt
  {
@@ -105,14 +110,15 @@ background-color: #00df9a;
 .left2
 {
 
-    height:60%;
+    height:50%;
+
     width: 100%;
 
 }
 .right2
 {
 
-  height: 40%;
+  height: 50%;
   width: 100%;
   justify-content: center;
   align-items: center;

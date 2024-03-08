@@ -1,0 +1,164 @@
+.o3
+{
+    height: 50dvh;
+    width: 100%;
+background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k3
+{
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left3
+{
+width: 55%;
+height: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+}
+.right3
+{
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+}
+.big-txt3
+{
+    
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+}
+.small-txt3
+{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.na-form
+{
+    width: 100%;
+
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.email
+{
+    background-color: #d1d1d1;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 60%;
+    font-size: 15px;
+   font-weight:600;
+   padding-left: 20px;
+
+}
+.button3
+{
+    width: 35%;
+    height: 40px;
+background-color: #00df9a;
+    border-radius: 8px;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  border: none;
+   cursor: pointer;
+   font-family: "Inter", sans-serif;
+
+   transition: all .2s;
+}
+.button3:hover
+{
+    transform: translateY(-3px) ;
+}
+.small-txt33
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.small-txt3-color
+{
+    font-size: 15px;
+    color: #00df9a;
+    font-weight: 500;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 980px) {
+.o3
+{
+    height: 55dvh;
+}
+.k3{
+    flex-direction: column;
+    width: 90%;
+    height: 95%;
+}
+.left3{
+width: 100%;
+align-items: center;
+height: 50%;
+
+}
+.big-txt3
+{
+    
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.right3
+{
+    height: 50%;
+    width: 60%;
+
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+}
+@media only screen and (max-width: 600px) {
+.right3
+{
+    width: 90%;
+}
+
+}
+@media only screen and (max-width: 450px) {
+
+    .big-txt3
+    {
+        font-size: 35px;
+     
+     
+    }
+    .small-txt3
+    {
+       font-size: 15px;
+    }
+    
+
+
+
+}
