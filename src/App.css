@@ -6,10 +6,19 @@ body
     padding: 0;
  overscroll-behavior: none;
  box-sizing: border-box;
+ scroll-behavior: smooth;
 }
 * {
     box-sizing: border-box; /* Upewnij się, że wielkość elementów obejmuje padding i border */
     transition: all 0.3s ease; /* Płynne przejścia dla wszystkich właściwości CSS */
     margin: 0;
     padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    overscroll-behavior: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
