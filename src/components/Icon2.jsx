@@ -85,7 +85,7 @@ function Icon() {
       ></path>
       </motion.g>
       <motion.circle
-        animate={{ y: [0, 10, 0, 3, 0],  cycle: true }}
+        animate={{ y: [0, 30, 0, 3, 0],  cycle: true }}
         transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
       cx="141.449" cy="57.668" r="14.054" fill="#00df9a"></motion.circle>
       <motion.path
@@ -93,7 +93,7 @@ function Icon() {
            transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
       fill="#00df9a" d="M127.394 225.722H356.584V365.182H127.394z"></motion.path>
       <motion.path
-         animate={{ y: [0, -10, 0, 3, 0], cycle: true }}
+         animate={{ y: [0, -30, 0, 3, 0], cycle: true }}
          transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
         fill="#ff6582"
         d="M140.318 384.75a7.568 7.568 0 00-10.712 10.691l10.692 10.713 10.712-10.692a7.568 7.568 0 00-10.692-10.712z"

@@ -20,7 +20,7 @@ function Icon() {
         transform="translate(-176.932 -63.795)"
       ></motion.path>
       <motion.path
-         animate={{ y: [0, 40, 0, 3, 0], cycle: true }}
+         animate={{ y: [0, 50, 0, 3, 0], cycle: true }}
          transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
         fill="#fff"
         d="M976.966 157.27l-28.726-9.623a22.495 22.495 0 01-29.592 22.77l-126.072-42.233a22.495 22.495 0 01-9.9-36l-26.83-8.988a47.348 47.348 0 00-59.935 29.856L505.292 682.065A47.348 47.348 0 00535.148 742l221.127 74.075a47.348 47.348 0 0059.935-29.856l190.614-569.014a47.348 47.348 0 00-29.857-59.935z"
@@ -28,7 +28,7 @@ function Icon() {
         transform="translate(-176.932 -63.795)"
       ></motion.path>
       <motion.g
-         animate={{ y: [0, -40, 0, 3, 0], cycle: true }}
+         animate={{ y: [0, -50, 0, 3, 0], cycle: true }}
          transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
       >
       <path
