@@ -92,26 +92,28 @@ function Icon() {
         ></path>
       </g>
       <g>
-        <path
+        <motion.path
+         animate={{ y: [0, -10, 0, 3, 0], cycle: true }}
+         transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
           fill="#3f3d56"
           d="M315.838 221.081l-13.084-6.197c5.366 7.489 9.99 19.185 12.466 28.492 4.191-8.67 10.948-19.278 17.636-25.614l-13.828 3.557c8.521-41.76 40.57-71.74 77.27-71.74l.52-1.507c-38.335 0-72.28 29.563-80.98 73.01z"
-        ></path>
+        ></motion.path>
         <motion.path
-           animate={{ y: [0, -3, 0, 3, 0], cycle: true }}
-           transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+           animate={{ y: [0, -30, 0, 3, 0], cycle: true }}
+           transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
           fill="#00df9a"
           d="M376.057 284.71h-82.668c-3.507 0-6.36-2.853-6.36-6.359s2.853-6.359 6.36-6.359h82.668c3.506 0 6.359 2.853 6.359 6.359s-2.853 6.36-6.36 6.36z"
         ></motion.path>
         <motion.path
-                  animate={{ y: [0, 3, 0, -3, 0], cycle: true }}
-                  transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                  animate={{ y: [0, 30, 0, -3, 0], cycle: true }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
           fill="#e6e6e6"
           d="M486.057 284.71h-82.668c-3.507 0-6.36-2.853-6.36-6.359s2.853-6.359 6.36-6.359h82.668c3.506 0 6.359 2.853 6.359 6.359s-2.853 6.36-6.36 6.36z"
         ></motion.path>
       </g>
       <motion.g fill="#3f3d56"
-          animate={{ x: [0, -2, 0, 2, 0],y:[0, -2, 0, 2, 0], cycle: true }}
-          transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+          animate={{ x: [0, -10, 0, 2, 0],y:[0, -10, 0, 2, 0], cycle: true }}
+          transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
       
       >
         <path d="M437.118 111.717h-80.357c-2.026 0-3.674-1.648-3.674-3.674s1.648-3.673 3.674-3.673h80.357c2.026 0 3.674 1.647 3.674 3.673s-1.648 3.674-3.674 3.674zM480.239 150.915H313.64c-2.026 0-3.675-1.648-3.675-3.674s1.649-3.673 3.675-3.673h166.598a3.677 3.677 0 013.673 3.673 3.678 3.678 0 01-3.673 3.674z"></path>
@@ -130,7 +132,7 @@ function Icon() {
       ></motion.path>
       </motion.g>
       <motion.g
-           animate={{ x: [0, -10, 0, 2, 0],y:[0, -2, 0, 2, 0], cycle: true }}
+           animate={{ x: [0, -10, 0, 2, 0],y:[0, -20, 0, 2, 0], cycle: true }}
            transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
       >
         <ellipse
