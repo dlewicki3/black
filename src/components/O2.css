@@ -22,14 +22,14 @@ border-top: 1px solid white;
 
     height: 70%;
    width: 100%;
-   background-color: red;
+   
 
 }
 .left2
 {
     width: 50%;
     height: 100%;
- background-color: purple;
+ 
     display: flex;
     justify-content: center;
     align-items: center;

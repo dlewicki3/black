@@ -8,7 +8,7 @@ function O2() {
     <div className="o2">
       <div className="k2">
         <div className="left2">
- 
+        <Comp/>
         </div>
         <div className="right2">
           <p className='medium2-txt'>DATA ANALYTICS DASHBOARD</p>
