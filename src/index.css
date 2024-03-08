@@ -7,3 +7,10 @@ body
  overscroll-behavior: none;
  box-sizing: border-box;
 }
+* {
+    box-sizing: border-box; /* Upewnij się, że wielkość elementów obejmuje padding i border */
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    box-sizing: border-box;
+}
