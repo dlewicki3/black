@@ -8,7 +8,9 @@ function O1() {
     <p className='color-txt' >GROWING WITH DATA ANALYTICS</p>
     <p className='big-txt-1' >Grow with data</p>
     <p className='middle-txt-1' >Fast, flexible, financiong for SaaS</p>
+    <br></br>
     <p className='small-txt-1'  >Monitor your data analytics to increas revenue for BTB, BTC,<br></br> SASS platforms</p>
+    <br></br>
     <button className='big-btn-1'
     >Get Started</button>
   </div>

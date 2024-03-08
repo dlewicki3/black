@@ -12,10 +12,13 @@ function O2() {
         </div>
         <div className="right2">
           <p className='medium2-txt'>DATA ANALYTICS DASHBOARD</p>
+          <br></br>
           <p className='big2-txt'>Menage Data Analytics Centrally</p>
+          <br></br>
           <p className='small2-txt'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum <br></br>reiciendis illo, doloremque quos architecto ex ipsum <br></br>ratione maiores saepe debitis dolorum?
           </p>
+          <br></br>
           <button className='button2'>Get started</button>
         </div>
       </div>

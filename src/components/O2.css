@@ -141,12 +141,29 @@ background-color: #00df9a;
 
     .big2-txt
     {
-      font-size: 35px;
+      font-size: 30px;
     }
 .medium2-txt
 {
-    font-size: 17px;
+    font-size: 16px;
+   
 }
+
+
+}
+@media only screen and (max-width: 530px) {
+    .big2-txt
+    {
+      font-size: 25px;
+      text-align: center;
+    }
+    .small2-txt
+    {
+        font-size: 13px;
+        text-align: center;
+    }
+
+
 
 
 }
