@@ -40,18 +40,18 @@ function O5() {
 <div className="right5">
     <div className="for-ul">
         <div className='linki'>Home</div>
-        <div className='linki'>Home</div>
-        <div className='linki'>Home</div>
-        <div className='linki'>Home</div>
+        <div className='linki'>Contact</div>
+        <div className='linki'>Process</div>
+        <div className='linki'>Benefits</div>
     </div>
     <div className="for-ul">
-    <div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div>
+    <div className='linki'>Home</div><div className='linki'>Contact</div><div className='linki'>Home</div><div className='linki'>Process</div>
     </div>
     <div className="for-ul">
-    <div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div>
+    <div className='linki'>About</div><div className='linki'>Benefits</div><div className='linki'>Home</div><div className='linki'>Benefits</div>
     </div>
     <div className="for-ul">
-    <div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div><div className='linki'>Home</div>
+    <div className='linki'>Home</div><div className='linki'>Process</div><div className='linki'>Home</div><div className='linki'>About</div>
     </div>
 </div>
         </div>
