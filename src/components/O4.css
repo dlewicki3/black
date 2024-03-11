@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .k4
 {
@@ -138,6 +138,56 @@ letter-spacing: -0.5px;
     height: 100%;
     margin-bottom: 100px;
 }
+.show1
+{
+    width: 100%;
+    max-width: 700px;
+    height: 70vh;
+    position: absolute;
+   background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.modal-bg
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backdrop-filter: blur(24px);
+  opacity: 1;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close-button
+{
+    
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+color: #00df9a;
+  font-size: 23px;
+  font-weight: 700;
+position: absolute;
+right:2%;
+top:3%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+cursor: pointer;
+}
+.foricon
+{
+width: 70%;
+}
 @media only screen and (max-width: 980px) {
 .o4
 {
@@ -187,7 +237,12 @@ height: 32%;
     height: 100%;
    margin: 0px;
 }
-
-
-
+.modal-bg
+{
+    height:250dvh;
+}
+.show1
+{
+    width: 90%;
+}
 }
