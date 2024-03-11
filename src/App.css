@@ -7,12 +7,15 @@ body
  overscroll-behavior: none;
  box-sizing: border-box;
  scroll-behavior: smooth;
+ 
 }
 * {
     box-sizing: border-box; /* Upewnij się, że wielkość elementów obejmuje padding i border */
     transition: all 0.3s ease; /* Płynne przejścia dla wszystkich właściwości CSS */
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth; /* Dodaj smooth scroll */
+
 }
 html{
     scroll-behavior: smooth;

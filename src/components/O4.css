@@ -122,7 +122,7 @@ letter-spacing: -0.5px;
 .price
 {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 10px;
 
 }
@@ -245,4 +245,5 @@ height: 32%;
 {
     width: 80%;
 }
+
 }
